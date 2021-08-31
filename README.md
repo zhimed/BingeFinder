@@ -9,7 +9,5 @@ detail.
 
 Here's a walkthrough of implemented user stories:
 
-### Landscape Mode:
-
 <img src='tv_shows_walkthrough.gif' title='Video Walkthrough' width='700' alt='Video Walkthrough' />
 
