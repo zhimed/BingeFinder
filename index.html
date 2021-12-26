@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TvShowsDB</title>
+    <title>BingeFinder</title>
+    <link rel="icon" href="bingeLogo.png" />
+
     <link rel="stylesheet" href="styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link
@@ -17,23 +19,26 @@
   <body>
     <!-- create the navbar -->
     <nav id="navbar">
-      <div id="logo">TvShowsDB</div>
+      <div>
+        <a id="logo" href="index.html">BingeFinder</a>
+      </div>
 
       <div id="links">
         <form action="" id="searchForm">
           <input
             type="text"
-            placeholder="Search"
+            placeholder="Search Tv Show"
             class="form-control"
             name="query"
+            id="searchText"
           />
           <button class="form-control"><i class="fas fa-search"></i></button>
         </form>
       </div>
     </nav>
 
-    <div>
-      <div id="shows"></div>
+    <div id="shows">
+      <!-- shows get added in here -->
     </div>
 
     <script src="app.js"></script>

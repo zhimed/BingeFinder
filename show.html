@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="icon" href="bingeLogo.png" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="showStyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- create the navbar -->
+    <nav id="navbar">
+      <div>
+        <a id="logo" href="index.html">BingeFinder</a>
+      </div>
+
+      <div id="links">
+        <form action="" id="searchForm">
+          <input
+            type="text"
+            placeholder="Search Tv Show"
+            class="form-control"
+            name="query"
+            id="searchText"
+          />
+          <button class="form-control"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="general">
+      <!-- the poster  -->
+      <div class="posterContainer">
+        <img class="poster" src="" alt="" />
+      </div>
+      <div class="showInfo">
+        <!-- the title  -->
+        <h1 id="title"></h1>
+        <div class="genreRating">
+          <!-- the genre/genres  -->
+
+          <div class="genreRatingContainer">
+            <span class="genreRatingTitles">Genres:</span>
+
+            <div id="genre"></div>
+          </div>
+
+          <!-- the rating -->
+          <div class="genreRatingContainer">
+            <span class="genreRatingTitles">Rating:</span>
+            <div id="rating"></div>
+          </div>
+
+          <div class="genreRatingContainer">
+            <span class="genreRatingTitles">Language:</span>
+            <div id="language"></div>
+          </div>
+        </div>
+        <!-- the plot -->
+
+        <div>
+          <br />
+          <h2>Plot:</h2>
+          <div id="plot"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- cast of the show -->
+    <div class="castContainer">
+      <h1 class="castHeader">Cast</h2>
+      <div class="cast"></div>
+    </div>
+
+    <script src="showApp.js"></script>
+  </body>
+</html>
