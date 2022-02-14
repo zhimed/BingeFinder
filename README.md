@@ -9,5 +9,5 @@ detail.
 
 Here's a walkthrough of implemented user stories:
 
-<img src='tv_shows_walkthrough.gif' title='Video Walkthrough' width='700' alt='Video Walkthrough' />
+<img src='bingefinder_walkthrough.gif' title='Video Walkthrough' width='700' alt='Video Walkthrough' />
 
