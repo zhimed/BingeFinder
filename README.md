@@ -1,8 +1,7 @@
 # BingeFinder
-Responsive website built using HTML, CSS, and JavaScript. This website was built using the previously mentioned technologies and an API that returns tv shows in the JSON 
-format based on requests. The user can search tv shows by name and the results will be displayed below with pictures/posters of each show. This is the first iteration 
-of this website in its simpler form, as the next will give the user the ability to click the poster and be directed to another custom webpage showing the show in much greater 
-detail.
+Responsive website built using HTML, CSS, and JavaScript. This website was built using the previously mentioned technologies and a third party API that gives access to tv shows in JSON 
+format. The user can search tv shows by name and the results will be displayed with pictures/posters of each show. The user now has the ability to click on any poster and be directed to another custom webpage showing the show in much greater 
+detail. The rating, language, genre, and more will be shown on the page the user is directed to.
 
 
 ## Video Walkthrough
